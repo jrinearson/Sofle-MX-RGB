@@ -92,7 +92,7 @@
         compatible = "zmk,keymap";
 
         MAIN {
-            display-name = "default";
+            display-name = "( ͡° ͜ʖ ͡°)";
 
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
@@ -115,7 +115,7 @@
         };
 
         LOWER {
-            display-name = "lower";
+            display-name = "LOWER";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
@@ -127,7 +127,7 @@
 
             bindings = <
 &trans   &kp F1  &kp F2     &kp F3            &kp F4                &kp F5                                       &kp F6  &kp F7                 &kp F8             &kp F9  &kp F10  &kp F11
-&kp TAB  &trans  &kp LA(V)  &kp LA(N3)        &kp LS(LC(R))         &kpkp LS(LC(N)) LS(LC(T))                    &trans  &trans                 &trans             &trans  &trans   &kp F12
+&kp TAB  &trans  &kp LA(V)  &kp LA(C)         &kp LS(LC(R))         &kpkp LS(LC(N)) LS(LC(T))                    &trans  &trans                 &trans             &trans  &trans   &kp F12
 &trans   &trans  &kp LA(S)  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LC(ENTER)                                &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans   &trans
 &trans   &trans  &trans     &trans            &kp LC(LS(V))         &kp RG(PERIOD)             &trans    &trans  &trans  &trans                 &trans             &trans  &trans   &trans
                  &trans     &trans            &trans                &trans                     &trans    &trans  &trans  &trans                 &trans             &to 0
@@ -144,7 +144,7 @@
             // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
-            display-name = "adjust";
+            display-name = "ADJUST";
             bindings = <
 &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &trans  &trans  &trans                   &none  &none  &none  &none  &none         &none
 &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &trans           &trans  &trans  &trans                   &none  &none  &none  &none  &bt BT_SEL 1  &none
