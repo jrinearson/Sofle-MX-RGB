@@ -166,11 +166,11 @@
 
         GAMING {
             bindings = <
-&kp ESC    &trans  &trans  &trans    &trans     &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &trans  &trans  &trans    &trans     &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F13    &trans  &trans  &trans    &trans     &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans     &trans     &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans  &kp LALT  &kp SPACE  &kp LCTRL  &mtkp 1 BACKSPACE    &trans  &trans  &trans  &trans  &to 0
+&kp ESC    &trans  &trans     &trans    &trans     &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &trans  &trans     &trans    &trans     &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F13    &trans  &trans     &trans    &trans     &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &trans  &trans     &trans    &trans     &trans     &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                   &kp ENTER  &kp LALT  &kp SPACE  &kp LCTRL  &mtkp 1 BACKSPACE    &trans  &trans  &trans  &trans  &to 0
             >;
 
             label = "GAMING";
